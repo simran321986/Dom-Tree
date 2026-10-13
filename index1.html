@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">Hello Students</h1>
+    <p id="message">Welcome to javascript.</p>
+    <button onclick="changecContent()">Click me</button>
+    <script>
+        function changecContent() {
+             document.getElementById("heading").innerHTML = "Hello JavaScript!"; 
+             document.getElementById("message").innerHTML = "You have successfully changed the content!";
+             }
+    </script>   
+</body>
+</html>
